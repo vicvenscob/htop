@@ -1,6 +1,6 @@
 [package]
 name = "htop"
-version = "0.1.0"
+version = "3.4.1"
 description = "an interactive process viewer"
 homepage = "https://htop.dev"
 license = "GPL-2.0"
