@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "an interactive process viewer"
 homepage = "https://htop.dev"
 license = "GPL-2.0"
-url = "https://github.com/vicvenscob/htop/archive/refs/heads/main.tar.gz"
+url = "https://github.com/vicvenscob/htop/archive/refs/heads/master.tar.gz"
 depends = []
 post_install = "./autogen.sh && ./configure && make && sudo make install"
 
