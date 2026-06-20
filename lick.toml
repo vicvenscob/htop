@@ -1,0 +1,11 @@
+[package]
+name = "htop"
+version = "3.0.0beta5"
+description = "htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'. "
+homepage = "https://github.com/hishamhm/htop"
+license = "GPL-2.0 license"
+url = "https://github.com/vicvenscob/htop/archive/refs/heads/main.tar.gz"
+depends = []
+post_install = "./autogen.sh && ./configure && make && sudo make install"
+
+[package.files]
